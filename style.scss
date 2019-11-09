@@ -272,3 +272,36 @@ nav{
         }
     }
 }
+
+.section5 {
+    padding:50px;
+
+    .sec5{
+        display:flex;
+        max-width:1200px;
+        margin:0 auto;
+
+        .left{
+            flex:3;
+
+            h3{
+                text-align:center;
+            }
+
+            form{
+                display:flex;
+                flex-direction:column;
+
+                .row{
+                    display: flex;
+                    width:100%;
+                    justify-content: space-between;
+                }
+            }
+        }
+        
+        .right{
+            flex:2;
+        }
+    }
+}

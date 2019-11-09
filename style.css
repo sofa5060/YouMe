@@ -315,4 +315,52 @@ nav .right li .button {
   line-height: 20px;
   color: #717171;
 }
+
+.section5 {
+  padding: 50px;
+}
+
+.section5 .sec5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section5 .sec5 .left {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.section5 .sec5 .left h3 {
+  text-align: center;
+}
+
+.section5 .sec5 .left form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section5 .sec5 .left form .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section5 .sec5 .right {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
 /*# sourceMappingURL=style.css.map */
