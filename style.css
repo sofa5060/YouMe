@@ -317,7 +317,8 @@ nav .right li .button {
 }
 
 .section5 {
-  padding: 50px;
+  padding: 100px 50px;
+  background: #f5f5f5;
 }
 
 .section5 .sec5 {
@@ -328,17 +329,21 @@ nav .right li .button {
   margin: 0 auto;
 }
 
-.section5 .sec5 .left {
+.section5 .sec5 form {
   -webkit-box-flex: 3;
       -ms-flex: 3;
           flex: 3;
+  padding: 0 50px;
 }
 
-.section5 .sec5 .left h3 {
+.section5 .sec5 form h3 {
   text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  color: #333;
 }
 
-.section5 .sec5 .left form {
+.section5 .sec5 form .left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -346,9 +351,10 @@ nav .right li .button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin: 60px 0 0 0;
 }
 
-.section5 .sec5 .left form .row {
+.section5 .sec5 form .left .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -358,7 +364,70 @@ nav .right li .button {
           justify-content: space-between;
 }
 
+.section5 .sec5 form .left .row input, .section5 .sec5 form .left .row textarea {
+  width: 100%;
+  margin: 15px;
+  height: 60px;
+  padding: 20px;
+}
+
+.section5 .sec5 form input[type=submit] {
+  background: #FD8369;
+  color: #fff;
+  padding: 20px 60px;
+  margin: 15px;
+  float: right;
+  border: 0;
+}
+
 .section5 .sec5 .right {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  text-align: center;
+  padding: 0 25px;
+}
+
+.section5 .sec5 .right h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  color: #333;
+}
+
+.section5 .sec5 .right h5 {
+  font-size: 21px;
+  color: #555;
+  margin: 60px 0 0 0;
+}
+
+.section5 .sec5 .right h6 {
+  color: #FD8369;
+  font-weight: bold;
+  font-size: 21px;
+  margin: 13px 0 0 0;
+}
+
+footer {
+  background: #000;
+  padding: 50px;
+}
+
+footer .footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer .left {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+footer .footer .right {
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
