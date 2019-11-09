@@ -58,6 +58,11 @@ nav{
             a{
                 color:  #333333;
             }
+
+            .active{
+                color: $main;
+            }
+
             .button{
                 color:#FFFFFF;
                 background: #FD8369;
@@ -131,7 +136,9 @@ nav{
             font-weight: normal;
             font-size: 16px;
             color: rgba(255, 255, 255, 0.7);
-            margin: 25px 0 70px 0;
+            margin: 25px auto 70px auto;
+            max-width: 40rem;
+            text-overflow: ellipsis;
         }
 
         .numbers{
@@ -141,7 +148,7 @@ nav{
             .coulmn{
                 display: flex;
                 flex-direction: column;
-                padding: 0 30px;
+                padding: 0 40px;
 
                 h2{
                     font-weight: bold;
@@ -254,6 +261,7 @@ nav{
                 background: $main;
                 width: 100px;
                 margin: 30px 0;
+                border: 0;
             }
 
             p{
