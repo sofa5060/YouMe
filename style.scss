@@ -363,10 +363,59 @@ footer{
 
         .left{
             flex:3;
+            color:rgba(255, 255, 255, 0.7);
+            display:flex;
+            justify-content: space-between;
+
+            .column{
+                max-width:20rem;
+                li{
+                    padding:0 0 30px 0;
+
+                    span{
+                        color:$main;
+                        text-overflow: ellipsis;
+                    }
+                    
+                }
+            }
+
+            .main{
+                color:#fff;
+            }
+
+            a{
+                color:rgba(255, 255, 255, 0.7);
+            }
+            
         }
 
         .right{
             flex:2;
+
+            h3{
+                color:#fff;
+                font-weight: 600;
+                font-size: 29px;
+                margin: 0 0 30px 0;
+            }
+
+            .newsletter{
+                display:flex;
+
+                input[type=email]{
+                    padding: 20px 30px;
+                }
+
+                input[type=submit]{
+                    padding: 20px 30px;
+                    background: $main;
+                    color:#fff;
+                    border:0;
+                    cursor: pointer;
+                }
+            }
+
         }    
     }
 }

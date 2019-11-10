@@ -425,11 +425,64 @@ footer .footer .left {
   -webkit-box-flex: 3;
       -ms-flex: 3;
           flex: 3;
+  color: rgba(255, 255, 255, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer .left .column {
+  max-width: 20rem;
+}
+
+footer .footer .left .column li {
+  padding: 0 0 30px 0;
+}
+
+footer .footer .left .column li span {
+  color: #FD8369;
+  text-overflow: ellipsis;
+}
+
+footer .footer .left .main {
+  color: #fff;
+}
+
+footer .footer .left a {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 footer .footer .right {
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
+}
+
+footer .footer .right h3 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 29px;
+  margin: 0 0 30px 0;
+}
+
+footer .footer .right .newsletter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer .right .newsletter input[type=email] {
+  padding: 20px 30px;
+}
+
+footer .footer .right .newsletter input[type=submit] {
+  padding: 20px 30px;
+  background: #FD8369;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
