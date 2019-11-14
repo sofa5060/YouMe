@@ -556,6 +556,7 @@ nav .right .hamburger {
   padding: 20px;
   border: 0;
   -webkit-appearance: none;
+  border-radius: 0;
 }
 
 .section5 .sec5 form .left .row input[type="submit"] {
@@ -732,6 +733,8 @@ footer .footer .right .newsletter input[type="email"] {
       -ms-flex: 2;
           flex: 2;
   width: inherit;
+  border-radius: 0;
+  -webkit-appearance: none;
 }
 
 footer .footer .right .newsletter input[type="submit"] {
@@ -743,6 +746,7 @@ footer .footer .right .newsletter input[type="submit"] {
   color: #fff;
   border: 0;
   cursor: pointer;
+  border-radius: 0;
   -webkit-appearance: none;
 }
 
