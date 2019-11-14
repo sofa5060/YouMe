@@ -555,6 +555,7 @@ nav .right .hamburger {
   height: 60px;
   padding: 20px;
   border: 0;
+  -webkit-appearance: none;
 }
 
 .section5 .sec5 form .left .row input[type="submit"] {
@@ -742,6 +743,7 @@ footer .footer .right .newsletter input[type="submit"] {
   color: #fff;
   border: 0;
   cursor: pointer;
+  -webkit-appearance: none;
 }
 
 @media (max-width: 780px) {

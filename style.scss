@@ -443,6 +443,7 @@ nav {
             height: 60px;
             padding: 20px;
             border: 0;
+            -webkit-appearance: none;
           }
 
           input[type="submit"] {
@@ -586,6 +587,7 @@ footer {
           color: #fff;
           border: 0;
           cursor: pointer;
+          -webkit-appearance: none;
         }
       }
     }
