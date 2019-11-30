@@ -5,6 +5,24 @@
 /* variables */
 $main: #fd8369;
 
+
+/* animation delays */
+.delay-1{
+  animation-delay: 0.3s;
+}
+
+.delay-2{
+  animation-delay: 0.5s;
+}
+
+.delay-3{
+  animation-delay: 0.7s;
+}
+
+.delay-4{
+  animation-delay: 0.9s;
+}
+
 /* General Styling*/
 * {
   margin: 0;
@@ -453,6 +471,8 @@ nav {
             padding: 20px 60px;
             width: unset;
             border: 0;
+            font-size: 16px;
+            cursor: pointer;
 
             @include phone {
               width: 100%;
@@ -487,6 +507,10 @@ nav {
         font-size: 21px;
         color: #555;
         margin: 60px 0 0 0;
+      }
+
+      h5:nth-child(1){
+        margin: 0;
       }
 
       h6 {
@@ -578,6 +602,7 @@ footer {
         input[type="email"] {
           padding: 20px 30px;
           flex: 2;
+          border: 0;
           width: inherit;
           border-radius:0;
           -webkit-appearance: none;
